@@ -11,6 +11,7 @@ h1 {
 font-family: 'Pacifico', cursive;
 font-size: 50px;
 padding-top: 20px;
+/*1em = 16px*/
 }
 
 body {
@@ -23,13 +24,18 @@ body {
 img {
 	width: 100%;
 }
+
 p {
-	padding-top: 15px;
+	padding-top: 1em;
+	padding-top: 1em;
+	font-size: 1em;
+ 	width: 15em;
+ 	line-height: 1.5em;
 }
 
 #slogan {
 	font-style: italic;
-	font-size: 20px;
+	font-size: 1.25em;
 	padding-bottom: 20px; 
 	padding-top: 5px;
 }
@@ -38,7 +44,7 @@ ul {
 	text-align: center;
 	list-style-type: none;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 
 a {
