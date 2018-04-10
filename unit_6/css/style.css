@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+aside {
+	padding: 10px;
+	width: 15%;
+	float: left;
+	margin-top: 3em;
+	margin-left: 0.5em;
+}
+
+header {
+	padding: 20px;
+}
+
+ body {
+	text-align: center;
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #000;
+}
+section {
+	padding: 10px;
+}
+
+article {
+	padding: 20px;
+	width: 35em;
+	margin: auto;
+ }
+
+ nav {
+ 	background-color: #000;
+	padding: 20px;
+	float: left;
+ }
+
+ nav a {
+	text-align: center;
+	list-style-type: none;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin: 8em;
+ }
+
+ footer {
+	padding: 10px;
+ }
+
+
+h1 {
+font-family: 'Pacifico', cursive;
+font-size: 50px;
+padding-top: 20px;
+/*1em = 16px*/
+}
+
+img {
+	width: 100%;
+}
+
+
+p {
+	padding: 0.5em;
+	font-size: 1em;
+ 	line-height: 1.5em;
+}
+
+a {
+	color: #4826FF;
+	text-decoration: none;
+}
+
+#two_column {
+/*background-color: #FFB7CF;
+border:1px black solid;*/
+padding: 10px
+}
+
+#left {
+/*background-color: violet;
+border:1px black solid;*/
+padding: 5px;
+float: left;
+width: 7%;
+}
+
+#right {
+/*background-color: pink;
+border:1px black solid;*/
+padding: 10px;
+margin-right: 18em;
+float: right;
+width: 45%
+}
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 1.25em;
+	padding: 5px 0;
+	text-align: auto;
+}
